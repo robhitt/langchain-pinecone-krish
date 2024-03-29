@@ -2,9 +2,8 @@ unstructured
 tiktoken
 pinecone-client
 pypdf
-openai
 langchain
-pandas 
-numpy
-python-dotenv
 langchain-openai
+python-dotenv
+ipykernel
+ipywidgets  # Avoids warning messages related to the tqdm library (provides progress bars). The specific issue ipywidgets, a dependency of tqdm
